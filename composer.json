@@ -1,0 +1,27 @@
+{
+    "name": "jelix/jhttp",
+    "type": "library",
+    "description": "simple http client for legacy Jelix projects.",
+    "keywords": ["http", "jelix"],
+    "homepage": "http://jelix.org",
+    "license": "LGPL-2.1",
+    "authors": [
+        {
+            "name": "Laurent Jouanneau",
+            "email": "laurent@jelix.org"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "classmap" : [
+            "lib/clearbricks/common/lib.files.php",
+            "lib/clearbricks/net/class.net.socket.php",
+            "lib/clearbricks/net.http/class.net.http.php",
+            "lib/jHttp.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "extra" : {
+    }
+}
